@@ -27,7 +27,7 @@ body {
 
 
 section {
-    height: 45dvh;
+    height: 100dvh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,6 +41,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 25rem;
 }
 
 
