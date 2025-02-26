@@ -25,11 +25,6 @@ body {
     color: white;
 }
 
-.class-name{
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 10px;
-}
 
 section {
     height: 100vh;
@@ -40,6 +35,7 @@ section {
 
 .hero-section {
     background: #6363de ;
+    align-items: baseline;
 }
 
 
