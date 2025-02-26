@@ -35,14 +35,9 @@ section {
 
 .hero-section {
     background: #6363de ;
-    align-items: baseline;
+    align-items: center;
 }
 
-@media (min-width: 768px) {
-        .hero-section{
-            align-items: center;
-        }
-}
 
 
 h1 {
