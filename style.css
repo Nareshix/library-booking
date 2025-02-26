@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #6363de;
+    color: white;
+    /* overflow-x: hidden; */
+}
+
+.header {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    padding: 1rem;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    /* z-index: 100; */
+    /* background: #6363de; */
+
+}
+
+.header-links {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+.header-links a {
+    color: white;
+    /* text-decoration: none; */
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    scroll-snap-align: start;
+}
+
+.hero-section {
+    /* background: linear-gradient(135deg, #4b4bb7 0%, #6363de 100%); */
+    background: #6363de ;
+}
+
+
+.hero-content {
+    text-align: center;
+    z-index: 2;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: min(5rem, 15vw);
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.book-now-btn {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.6rem 1.5rem;
+    background-color: white;
+    color: #4b4bb7;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.timings-section {
+    background-color: #4b4bb7;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.timings-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.timings-section p {
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+}
+
+.divider {
+    width: min(300px, 80%);
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 auto;
+}
+
+.save-spot-section {
+    background-color: #0c0442;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.save-spot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.save-spot-image {
+    width: 150px;
+    height: 150px;
+    background-color: #5050d2;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.save-spot-image::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(80, 80, 210, 0) 70%);
+}
+
+.spot-blob {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
+
+.spot-blob-1 {
+    width: 50px;
+    height: 50px;
+    left: 20%;
+    top: 30%;
+}
+
+.spot-blob-2 {
+    width: 30px;
+    height: 30px;
+    right: 25%;
+    bottom: 20%;
+}
+
+.save-spot-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.save-spot-content h2 {
+    font-size: min(2rem, 10vw);
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.book-now-small {
+    padding: 0.4rem 1rem;
+    background-color: #4b4bb7;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 0.8rem;
+}
+
+/* @media (max-width: 768px) {
+    section {
+        padding: 60px 20px;
+        height: auto;
+        min-height: 100vh;
+    }
+    
+    .save-spot-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+    .save-spot-content {
+        align-items: center;
+        text-align: center;
+    }
+} */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1%;
+    padding-left: 0.5%;
+    background: linear-gradient(135deg, #4b4bb7 0%, #6363de 100%);
+}
+
+.class-name{
+    display: flex;
+    justify-content: flex-end;
+}
