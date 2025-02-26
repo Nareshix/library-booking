@@ -11,7 +11,7 @@ body {
 
 .header {
     padding: 1rem;
-    background-color: #6363de;
+    background-color: #0c0442;
 }
 
 .header-links {
@@ -34,7 +34,7 @@ section {
 }
 
 .hero-section {
-    background: #6363de ;
+    background: #0c0442 ;
     align-items: center;
 }
 
@@ -51,8 +51,8 @@ h1 {
     display: inline-block;
     margin-top: 2rem;
     padding: 0.6rem 1.5rem;
-    background-color: white;
-    color: #4b4bb7;
+    background-color: #4b4bb7;
+    color: white;
     text-decoration: none;
     border-radius: 25px;
     font-weight: 500;
