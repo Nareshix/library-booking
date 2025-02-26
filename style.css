@@ -38,6 +38,12 @@ section {
     align-items: baseline;
 }
 
+@media (min-width: 768px) {
+        .hero-section{
+            align-items: center;
+        }
+}
+
 
 h1 {
     font-size: min(5rem, 15vw);
